@@ -34,6 +34,6 @@ public class Account implements Serializable{
 	@OneToMany(mappedBy= "account",fetch = FetchType.EAGER)
 	List<Authority> authorities;
 	@JsonIgnore
-	@OneToMany(mappedBy = "account", fetch = FetchType.EAGER)
-	List<Favorite> favoties;
+	@OneToMany(mappedBy = "account")
+	List<Favorite> favorities;
 }
