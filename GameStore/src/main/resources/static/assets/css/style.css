@@ -414,6 +414,7 @@ blockquote.text-white cite span {
 }
 
 .page-content {
+    /* margin-top: -40px; */
     padding-bottom: 5rem
 }
 
@@ -6013,8 +6014,8 @@ p {
 }
 
 .breadcrumb-nav {
-    margin-bottom: 4rem;
-    border-bottom: 0.1rem solid rgba(235, 235, 235, 0.55)
+    margin-bottom: 0rem;
+    border-bottom: 0.1rem solid rgba(250, 244, 244, 0.55);
 }
 
 .breadcrumb-nav .container,
@@ -12728,7 +12729,7 @@ button:focus {
 .product-details-action .btn-cart {
     padding: 1rem 1.5rem;
     max-width: 198px;
-    color: #c96;
+    color: #000;
     border: 0.1rem solid #c96
 }
 
